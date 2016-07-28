@@ -1,0 +1,30 @@
+.octopus-wrapper{
+  position: relative;
+
+}
+
+#octopus{
+position: relative;
+top: 250px;
+}
+
+#hat{
+position: relative;
+top: -100px;
+left: -20px;
+color: green;
+}
+
+#glasses{
+position: relative;
+top: -140px;
+left: 40px;
+color: blue;
+}
+
+body{
+  margin: auto;
+  width: 200px;
+  display: block;
+
+}
