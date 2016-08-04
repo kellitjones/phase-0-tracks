@@ -1,0 +1,80 @@
+-- How to ride an elevator --
+
+- At the elevator doors, on floor 1:
+  - Locate the up and down buttons aside the doors
+    to determine which direction to ride, either up or down
+
+- If riding to a higher floor is desired:
+    - select the up button
+- Otherwise:
+  - If riding to a lower floor is desired:
+    - select the down button
+
+- Wait for the elevator to arrive:
+  - Confirm that the elevator is going in your
+    chosen direction either up or down
+
+- Once the elevator doors open:
+  - Enter the elevator doors:
+    - Locate the numbered buttons 1-8 inside the elevator car, these indicate the floors of the building. Some of these buttons maybe labeled with letters, such as: the lobby (LB) or the garage(GR)
+
+- If riding to a higher floor is desired:
+  - select a numbered button between 2-8
+- Otherwise:
+  - If riding to a lower floor is desired:
+    - select a lettered button either 'LB' or 'GR'
+
+- Wait for the ride to end, and the elevator doors
+  to open again
+
+- Once the elevator doors open:
+  - Exit the elevator doors
+
+
+-- How to Prepare Fried Eggs for Breakfast, as I do almost every morning :) --
+
+- Walk to the kitchen cabinet:
+  - Select a nonstick pan
+  - Select a butter knife
+
+- Walk to the stove top:
+  - Place the nonstick pan on the stove top
+
+- Walk to the fridge:
+  - Open the fridge doors
+
+- Locate the egg container, within the fridge:
+  - Get the egg container
+
+- Open the egg container:
+    - Determine how many eggs you have:
+      - If you have 6 eggs or less:
+        - select 1 egg from the container
+      - Otherwise:
+        - select 2 eggs from the container
+
+- Locate the butter, also within the fridge:
+  - Get the butter
+
+- Close the fridge doors
+
+- Walk back to the stove top with your egg(s) and butter
+
+- Turn on the stove top
+
+- Cut a small slice of butter with the butter knife
+
+- Place butter within the nonstick pan:
+  - Allow butter to melt
+
+- Crack egg(s), into nonstick pan:
+  - Check for egg shells:
+     - If egg shells are in pan:
+       - remove egg shells
+     - Otherwise:
+        - Allow egg(s) to cook until firm
+
+- Once eggs are firm:
+  - remove egg(s) from pan and place on plate
+
+- Enjoy the egg(s)
