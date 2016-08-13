@@ -1,0 +1,17 @@
+header {
+  width: 400px;
+  color: green;
+}
+
+.column-1 {
+  width: 40%;
+  display: inline-block;
+  background-color: yellow;
+}
+
+.column-2 {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: red;
+}
