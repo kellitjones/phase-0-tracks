@@ -1,10 +1,9 @@
 def test_method
-  puts "This is a test message for practice."
-  yield
-  yield("adam","eve")
+  puts "This is just a test."
+  yield("Adam","Eve")
 end
 
-test_method {|name1, name2| puts "message received #{name1} and #{name2}."}
+test_method {|name1, name2| puts "Message received #{name1} and #{name2}."}
 
 
 grocery_list = ["eggs", "milk", "cheese", "butter"]
@@ -34,35 +33,35 @@ car_list.each do |make, model|
   puts "#{model} is made by #{make}."
 end
 
-puts "arrays number one - used delete_if method"
+puts "array example number one - used delete_if method"
 #number1 arrays
 number_list = [1,2,3,4,5,6,7,8,9,10]
 p number_list
 number_list.delete_if{|num|num > 5}
 p number_list
 
-puts "arrays number two - used select! method"
+puts "array example number two - used select! method"
 #number2 arrays
 number_list = [1,2,3,4,5,6,7,8,9,10]
 p number_list
 number_list.select! { |num|num.even? }
 p number_list
 
-puts "arrays number three - used reject! method"
+puts "array example number three - used reject! method"
 #number3 arrays
 number_list = [1,2,3,4,5,6,7,8,9,10]
 p number_list
 number_list.reject! {|num|num < 6}
 p number_list
 
-puts "arrays number four - used keep_if method"
+puts "array example number four - used keep_if method"
 #number4 arrays
 number_list = [1,2,3,4,5,6,7,8,9,10]
 p number_list
 number_list.keep_if {|num|num < 5}
 p number_list
 
-puts "hash number one - used delete_if method"
+puts "hash example number one - used delete_if method"
 #number1 hash
 number_hash = {
   a: 10,
@@ -77,7 +76,7 @@ p number_hash
 number_hash.delete_if{|key, value| key >= :c}
 p number_hash
 
-puts "hash number two - used select! method"
+puts "hash example number two - used select! method"
 #number2 hash
 
 number_hash = {
@@ -93,7 +92,7 @@ p number_hash
 number_hash.select!{|key, value| value > 50}
 p number_hash
 
-puts "hash number three - used reject! method"
+puts "hash example number three - used reject! method"
 #number3 hash
 
 number_hash = {
@@ -109,7 +108,7 @@ p number_hash
 number_hash.reject!{|key, value| value > 50}
 p number_hash
 
-puts "hash number four - used keep_if method"
+puts "hash example number four - used keep_if method"
 #number4 hash
 
 number_hash = {
