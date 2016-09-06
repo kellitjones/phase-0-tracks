@@ -13,7 +13,7 @@ sneaker_collection = {
       white:0,
       other:1
     },
-    names: [
+    sneaker_names: [
     "dunk",
     "lunar force",
     "huarache",
@@ -34,7 +34,7 @@ sneaker_collection = {
       white:1,
       other:0
     },
-    names: [
+    sneaker_names: [
     "d rose 3.5",
     "forum",
     "crazylight boost",
@@ -55,7 +55,7 @@ sneaker_collection = {
       white:0,
       other:2,
     },
-    names: [
+    sneaker_names: [
       "sk8-hi",
       "106",
       "half cab",
@@ -64,10 +64,10 @@ sneaker_collection = {
 }
 
 #returns the last item in the vans, name collection
-sneaker_collection[:vans][:names][3]
+sneaker_collection[:vans][:sneaker_names][3]
 
 #returns the nike names collection in reverse
-sneaker_collection[:nikes][:names].reverse
+sneaker_collection[:nikes][:sneaker_names].reverse
 
 #returns the adidas name collection with another shoe name added, 'jabbar'
-sneaker_collection[:adidas][:names].push("jabbar")
+sneaker_collection[:adidas][:sneaker_names].push("jabbar")
