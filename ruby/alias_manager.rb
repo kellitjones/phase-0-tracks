@@ -4,11 +4,11 @@ agent_name = gets.chomp
 
 name_array = agent_name.split
 p name_array
-#turns the users name response into an array of two strings stores this array as name_array
+#turns the users name response into an array of two strings and stores this array as name_array
 
 reversed_name = name_array.reverse
 p reversed_name
-#reverses the two strings within the array, name_array and stores the reversed value as reversed_name
+#reverses the two strings within the array, name_array, and stores the reversed value as reversed_name
 
 entire_name = reversed_name.join("")
 p entire_name
@@ -24,7 +24,7 @@ consonants = "bcdfghjklmnpqrstvxzwyzBCDFGHJKLMNPQRSTVXZWYZ"
 #declaring vowel and consonant variables
 
 changed_character = ""
-#place holder for replaced characters
+# a place holder for replaced characters
 
 agent_alias.map! do |character|
   if character == "u"
