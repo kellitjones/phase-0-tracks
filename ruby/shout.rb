@@ -22,17 +22,17 @@ module Shout
   end
 end
 
-class Kid
+class Baby
   include Shout
 end
 
-class Cheerleader
+class Announcer
   include Shout
 end
 
-baby_brother = Kid.new
+baby_brother = Baby.new
 p baby_brother.yell_angrily("I want to go home, NOW")
 
 
-cheerleading_captain = Cheerleader.new
-p cheerleading_captain.yell_happily("Give me a 'y', Give me an 'a', Give me a 'y'. What does that spell? YAY, Goooo Team")
+track_announcer = Announcer.new
+p track_announcer.yell_happily("A half mile to go. Whoa! Look at that horse move!!! This is going to be an amazing finish!")
