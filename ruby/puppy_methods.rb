@@ -28,34 +28,37 @@ class Puppy
 end
 
 spot = Puppy.new
-spot.fetch("ball")
-spot.speak(2)
+spot.fetch("frisbee")
+spot.speak(5)
 spot.roll_over
-spot.dog_years(3)
+spot.dog_years(2)
 spot.chase_cat
 
-class Merchant
+#Release two, designing a class.
 
-  def initialize
-  puts 'I have a problem.'
-  end
 
-  def panic
-  puts 'I need this fixed, NOW!'
-  end
-
-  def reconciliation
-  puts ' Where is my money???'
-  end
+class Lion
+    
+    def initialize
+        puts 'Roarrrrrr....'
+    end
+    
+    def eat
+        puts 'Chomp, chomp, chomp!'
+    end
+    
+    def rest
+        puts 'ZZZzzzzz...'
+    end
 end
 
-merchant_array = []
+Lion_array = []
 
 50.times do |x|
- merchant_array.push(Merchant.new)
+    Lion_array.push(Lion.new)
 end
 
-merchant_array.each do |merchant_instance|
-merchant_instance.panic
-merchant_instance.reconciliation
+Lion_array.each do |lion_instance|
+    lion_instance.eat
+    lion_instance.rest
 end
