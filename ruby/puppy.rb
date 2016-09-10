@@ -11,4 +11,4 @@ p spot.class
 p duchess == fido
 p fido.instance_of?(Array)
 p fido.instance_of?(Puppy)
-
+p spot.play_dead
