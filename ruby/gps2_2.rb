@@ -30,7 +30,6 @@ def add_list_items (second_update_list, item_name, quantity_number)
     
     second_update_list
     second_update_list[item_name] = quantity_number
-    
 end
 
 p second_update_list
@@ -61,7 +60,6 @@ p second_update_list
 
 def update_item(second_update_list, item_name, quantity_number)
     second_update_list[item_name]= quantity_number
-    
 end
 
 p second_update_list
