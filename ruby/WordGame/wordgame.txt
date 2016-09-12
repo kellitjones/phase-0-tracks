@@ -2,7 +2,8 @@
 
 # create an initialize method
   # create an instance variable set to the word the user will guess @guess_word
-  # create an instance variable set to the
+  # create an instance variable for limiting the second users number of guesses  ( consider the length of the guess word)
+
 
 # create method that checks whether the letter the second user enters is in the guess word
   # if the letter is in the guess word
