@@ -1,0 +1,18 @@
+# create a WordGame class that takes several instance methods
+
+# create an initialize method
+  # create an instance variable set to the word the user will guess @guess_word
+  # create an instance variable set to the
+
+# create method that checks whether the letter the second user enters is in the guess word
+  # if the letter is in the guess word
+    # remove the underscore where the letter fits in the guess word
+    # insert the letter into that same spot
+    # display a string so that the second user can see what letter/s they have correct
+  # else if the letter is not in the secret word
+    # inform the second user by telling them the letter was not in the word
+    # display the letters that the second user has guessed correctly
+
+# create method that alerts the players of how many tries they have to guess a word, this is determined in respect to the length of the guess word
+  # if the guess word is three characters long, the second user will have 3 guesses
+
