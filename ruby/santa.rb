@@ -1,4 +1,4 @@
-lass Santa
+class Santa
     attr_reader :ethnicity, :reindeer_ranking
     attr_accessor :age, :gender
 
