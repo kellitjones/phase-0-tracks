@@ -19,6 +19,36 @@ class WordGame
     end
   end
 
+def count_user_tries
+    count = 0
+    num_of_tries =  guess_word.length
+
+    until count == num_of_tries
+      puts "TRY number #{count + 1} :"
+
+      puts "Player 2, please guess a letter"
+      letter = gets.chomp
+
+      puts check(letter)
+      puts "Do you think you know the guess word? (y/n)"
+      has_a_guess = gets.chomp
+
+      if  has_a_guess == "y"
+        puts "What is your answer?"
+       answer = gets.chomp
+
+        if answer == guess_word
+          puts "You did it! That is the correct answer."
+          break
+        else
+          puts "Sorry, that is not the guess word. Womp... Womp!"
+          break
+        end
+      end
+      count += 1
+    end
+  end
+
 
 
 end
