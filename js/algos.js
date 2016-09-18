@@ -1,3 +1,5 @@
+
+// release 0
 // write a function that takes an array of words and returns the longest word
 // store current count in a variable
 // store current word in a variable
@@ -25,6 +27,7 @@ longestWord(['long word', 'longest word', 'longer word'])
 longestWord(['oh my gosh', 'yeah yeah yeah', 'going going gone'])
 longestWord(['exposed', 'exposer', 'expose'])
 
+// release 1
 // Write a function that takes two objects and checks to see if the objects share at least one key-value pair
 // compare object1 and object2
 // iterate through each object's keys and values
@@ -52,6 +55,7 @@ sameValue({name: "Steven", age: 54}, {name: "Tamir", age: 54})
 sameValue({flavor: "grape", taste: "sweet"}, {flavor: "grape", taste: "sour"})
 sameValue({sneaker:"Nike", size: 8}, {sneaker:"Adidas", size: 7.5})
 
+// release 2
 // Write a function that takes an integer for length, and builds and returns an array of strings of the given length
 // The words should be of random length, with a minimum of 1 letter and a maximum of 10 letters
 // Create an empty array to store randomized words
