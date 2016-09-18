@@ -1,6 +1,6 @@
 // Release 0: Work with Arrays
 
-var colors = ["red","green","blue","yellow"];
+var colors = ["purple","green","blue","silver"];
 var horses = ["Jimm","Bob","Thunder","Sally"];
 
 colors.push("black");
